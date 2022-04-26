@@ -1,5 +1,5 @@
 let memeImageContainer = document.querySelector('#meme-image-container');
-let textInMeme = document.createElement('h2');
+let textInMeme = document.createElement('p');
 // textInMeme.className = 'meme-text';
 let memeText = document.querySelector('#meme-text');
 memeImageContainer.appendChild(memeText);
