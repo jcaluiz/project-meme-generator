@@ -27,3 +27,26 @@ function textoEmTempoReal () {
     })
 }
 textoEmTempoReal();
+
+function buttonBorder() {
+  let water = document.getElementById('water');
+  let fire = document.getElementById('fire');
+  let earth = document.getElementById('earth');
+  
+  fire.style.backgroundColor = 'red';
+  water.style.backgroundColor = 'blue';
+  earth.style.backgroundColor = 'green';
+
+  fire.addEventListener('click', function() {
+    memeImageContainer.style.border = "3px dashed red"
+  })
+
+  water.addEventListener('click', function() {
+    memeImageContainer.style.border = "blue 5px double"
+  })
+
+  earth.addEventListener('click', function() {
+    memeImageContainer.style.border = "groove green 6px"
+  })
+}
+buttonBorder();

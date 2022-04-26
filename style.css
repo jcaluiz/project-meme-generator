@@ -23,5 +23,9 @@
   font-size: 30px;
   color: white;
 }
+
+.red {
+  border: 3px dashed red;
+}
 /* ref: https://www.w3.org/Style/Examples/007/text-shadow.pt_BR.html //Para a sombra */
 
