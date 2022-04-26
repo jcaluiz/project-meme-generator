@@ -19,4 +19,9 @@
   left: 50px;
   width: 200px;
   display: inline-block;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
+  color: white;
 }
+/* ref: https://www.w3.org/Style/Examples/007/text-shadow.pt_BR.html //Para a sombra */
+
