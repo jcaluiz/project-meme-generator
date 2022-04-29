@@ -1,6 +1,9 @@
 #meme-image-container {
   width: 325px;
   height: 325px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   border: 1px solid black;
   background-color: rgb(255, 255, 255);
 }
@@ -28,4 +31,9 @@
   border: 3px dashed red;
 }
 /* ref: https://www.w3.org/Style/Examples/007/text-shadow.pt_BR.html //Para a sombra */
+
+#meme-1, #meme-2, #meme-3, #meme-4 {
+  width: 150px;
+  height: 150px;
+}
 
